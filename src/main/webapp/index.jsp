@@ -59,18 +59,18 @@
                 <div class="card">
                     <ul class="list-group">
                         <p class="list-group-item header-card">Dati Generali</p>
-                        <li class="list-group-item"> Fatturato Totale</li>
-                        <li class="list-group-item"> Fatturato Giornaliero</li>
-                        <li class="list-group-item"> Commesse da Iniziare</li>
-                        <li class="list-group-item"> Commesse in Lavorazione</li>
-                        <li class="list-group-item"> Commesse Complete</li>
-                        <li class="list-group-item"> Commesse Interrotte</li>
-                        <li class="list-group-item"> Reclami Giornalieri</li>
-                        <li class="list-group-item"> Reclami Annui</li>
-                        <li class="list-group-item"> Risorse Presenti</li>
-                        <li class="list-group-item"> Risorse Assenti</li>
-                        <li class="list-group-item"> Infortuni Giornalieri</li>
-                        <li class="list-group-item"> Infortuni Annui</li>
+                        <li class="list-group-item"> Fatturato Totale <input id="txtFatturatoTotale" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Fatturato Giornaliero<input id="txtFatturatoGiornaliero" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Commesse da Iniziare<input id="txtCommesseDaIniziare" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Commesse in Lavorazione<input id="txtCommesseInLavorazione" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Commesse Complete<input id="txtCommesseComplete" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Commesse Interrotte<input id="txtCommesseInterrotte" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Reclami Giornalieri<input id="txtReclamiGiornalieri" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Reclami Annui<input id="txtReclamiAnnui" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Risorse Presenti<input id="txtRisorsePresenti" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Risorse Assenti<input id="txtRisorseAssenti" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Infortuni Giornalieri<input id="txtInfortuniGiornalieri" class="generalData pull-right border-0" type="text"/></li>
+                        <li class="list-group-item"> Infortuni Annui<input id="txtInfortuniAnnui" class="generalData pull-right border-0" type="text"/></li>
                     </ul>
                 </div>
             </div>

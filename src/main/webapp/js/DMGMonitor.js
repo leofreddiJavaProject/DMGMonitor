@@ -20,4 +20,21 @@ function initHome(){
 		$('.tab-content').addClass('hidden');
 		$(idTabContent).removeClass('hidden');
 	});
+
+	loadDatiGenerali();
+}
+
+function loadDatiGenerali(){
+	$('#txtFatturatoTotale').val(0.0);
+	$('#txtFatturatoGiornaliero').val(0.0);
+	$('#txtCommesseDaIniziare').val(0.0);
+	$('#txtCommesseInLavorazione').val(0.0);
+	$('#txtCommesseComplete').val(0.0);
+	$('#txtCommesseInterrotte').val(0.0);
+	$('#txtReclamiGiornalieri').val(0.0);
+	$('#txtReclamiAnnui').val(0.0);
+	$('#txtRisorsePresenti').val(0.0);
+	$('#txtRisorseAssenti').val(0.0);
+	$('#txtInfortuniGiornalieri').val(0.0);
+	$('#txtInfortuniAnnui').val(0.0);
 }

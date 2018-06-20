@@ -52,7 +52,14 @@ tr {
   text-shadow: 0px 1px 1px grey;
 }
 
+.border-0{
+  border:0!important;
+}
 
+.generalData{
+  color: red;
+  text-align: right;
+}
 
 
 
