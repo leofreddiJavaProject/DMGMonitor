@@ -1,4 +1,18 @@
 function initHome(){
+
+	var chartLamiere = c3.generate({
+    data: {
+        // iris data from R
+        columns: [
+            ['Da Iniziare', 30],
+            ['In lavorazione', 120],
+            ['Interrotte', 120],
+            ['Complete', 120],
+        ],
+        type : 'pie',
+    	}
+	});
+
 	//listeners
 	$('li','.navbar-nav').on('click',function(){
 		$('li','.navbar-nav').removeClass('clicked');

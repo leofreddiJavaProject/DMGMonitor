@@ -1,10 +1,13 @@
-package repository;
+package Quake.repository;
 
-import model.Generale;
+import Quake.model.Generale;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface GeneraleRepository extends CrudRepository<Generale,Long> {
-    List<Generale> findAll();
+
+    public List<Generale> findAll();
 }

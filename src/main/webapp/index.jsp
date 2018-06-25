@@ -111,6 +111,33 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="chartLamiere"></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="chartMontaggio"></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="chartQuadri"></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="chartSpedizioni"></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="chartSchindler"></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row hidden tab-content" id="produzione">
             <div class="col-md-12">

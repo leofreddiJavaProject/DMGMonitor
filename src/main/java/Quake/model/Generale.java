@@ -1,10 +1,19 @@
-package model;
+package Quake.model;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Generale {
+    @Id
+    @Column(name="id_generale")
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    int idGenerale;
     double fatturatoTotaleAnnuo;
-    double gFatturatoTotaleGiornaliero;
+    double fatturatoTotaleGiornaliero;
     int commesseDaIniziare;
     int commesseInLavorazione;
     int commesseComplete;
@@ -16,6 +25,14 @@ public class Generale {
     int infortuniGiornalieri;
     int infortuniAnnui;
 
+    public int getIdGenerale() {
+        return idGenerale;
+    }
+
+    public void setIdGenerale(int idGenerale) {
+        this.idGenerale = idGenerale;
+    }
+
     public double getFatturatoTotaleAnnuo() {
         return fatturatoTotaleAnnuo;
     }
@@ -24,12 +41,12 @@ public class Generale {
         this.fatturatoTotaleAnnuo = fatturatoTotaleAnnuo;
     }
 
-    public double getgFatturatoTotaleGiornaliero() {
-        return gFatturatoTotaleGiornaliero;
+    public double getFatturatoTotaleGiornaliero() {
+        return fatturatoTotaleGiornaliero;
     }
 
-    public void setgFatturatoTotaleGiornaliero(double gFatturatoTotaleGiornaliero) {
-        this.gFatturatoTotaleGiornaliero = gFatturatoTotaleGiornaliero;
+    public void setFatturatoTotaleGiornaliero(double fatturatoTotaleGiornaliero) {
+        this.fatturatoTotaleGiornaliero = fatturatoTotaleGiornaliero;
     }
 
     public int getCommesseDaIniziare() {
@@ -116,7 +133,7 @@ public class Generale {
     public String toString() {
         return "Generale{" +
                 "fatturatoTotaleAnnuo=" + fatturatoTotaleAnnuo +
-                ", gFatturatoTotaleGiornaliero=" + gFatturatoTotaleGiornaliero +
+                ", gFatturatoTotaleGiornaliero=" + fatturatoTotaleGiornaliero +
                 ", commesseDaIniziare=" + commesseDaIniziare +
                 ", commesseInLavorazione=" + commesseInLavorazione +
                 ", commesseComplete=" + commesseComplete +
