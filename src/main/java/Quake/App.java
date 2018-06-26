@@ -7,11 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 import javax.transaction.Transactional;
 
 @SpringBootApplication
-@ComponentScan
 public class App {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(App.class, args);
+        //SpringApplication.run(App.class, args);
+        ConnectionJDBC.connectionJDBC();
     }
 
     @Transactional
